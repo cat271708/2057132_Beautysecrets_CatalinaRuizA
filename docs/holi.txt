@@ -1,0 +1,100 @@
+  <nav class="navbar navbar-expand-lg  w-auto p-3 bg-dark fixed-top " class="opacity-2">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  NUESTROS CURSOS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Cursos</a>
+                <a class="dropdown-item" href="#">Cuidado Facial</a>
+                <a class="dropdown-item" href="#">Cuidado Capilar</a>
+                <a class="dropdown-item" href="#">Maquillaje</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ingresa
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Iniciar Sesión</a>
+            <a class="dropdown-item" href="#">Registrate</a>
+          </div>
+        </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">CONTACTENOS</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#"><img src="img/carrito.png" height="20px"></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-ligth my-2 my-sm-0" type="submit"><img src="img/lupa.png" height="20px"></button>
+          </form>
+        </div>
+      </div>
+      </nav>
+      
+       <section class="contact-box">
+       <div class="row no-gutters bg-tranparent">
+           <div class="col-lg-8 col-lg-36 d-flex align-items-center">
+                <div class="container p-0">
+                    <img style=" width: 100px;
+    height: 100px;"  align="right"  src="img/Logoformulario.png "> 
+               
+                    <p class="text-dark mb-5 float-right">¡Aprende a hacer lo que más te gusta! </p>
+
+                    <form>
+                        <div class="form-row mb-2 float-left">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Tu apellido">
+                            </div>
+                        </div>
+                        <div class="form-group mb-3 ">
+                            <label class="font-weight-bold float-left">Correo electrónico <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Contraseña<span class="text-danger">*</span></label>
+                                  <input type="password" class="form-control" placeholder="Ingresa una contraseña">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="font-weight-bold">Confirma tu contraseña <span class="text-danger">*</span></label>
+                                <input type="password" class="form-control" placeholder="Confirma tu contraseña">
+                            </div>
+                        
+                            
+                            <p class="text-dark font-weight-bold">Usa 8 o más carácteres con una combinación de letras, número y simbolos
+
+</p>
+                        </div>
+                        <div class="form-group mb-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label text-dark font-weight-bold">Al seleccionar esta casilla aceptas nuestro aviso de privacidad y los términos y condiciones</label>
+                                
+                            </div>
+                        </div>
+                        <button class="btn btn-transparent width-100 text-white float-right" style="background: #ff0080 ">Regístrate</button>
+                    </form>
+               </div>
+           </div>
+       </div>
+   </section>
